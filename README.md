@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Foundation Agent (Stage 0) Readme</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; }
-        h1, h2, h3 { border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
-        h1 { font-size: 2em; }
-        h2 { font-size: 1.5em; }
-        h3 { font-size: 1.25em; }
-        pre, code { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace; background-color: #f6f8fa; border-radius: 6px; padding: 0.2em 0.4em; font-size: 85%; }
-        pre { padding: 16px; overflow: auto; line-height: 1.45; }
-        pre code { background: none; padding: 0; }
-        table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-        th, td { border: 1px solid #dfe2e5; padding: 6px 13px; }
-        th { font-weight: 600; background-color: #f6f8fa; }
-        hr { border: 0; height: 1px; background: #eee; margin: 20px 0; }
-        .deploy-button { max-width: 200px; }
-    </style>
-</head>
-<body>
-
-    <h1>Foundation Agent (Stage 0)</h1>
+<h1>Foundation Agent (Stage 0)</h1>
 
     <p>A minimal LLM-powered chatbot using Groq’s ChatCompletions API and Streamlit.
     This agent is intentionally simple: no memory, no grounding, no frameworks.
@@ -198,5 +175,4 @@ python-dotenv
     <p>This stage helps users understand the limitations of a simple LLM before introducing more advanced features in later stages:
     Stage 1 (Enterprise Framework), Stage 2 (Grounding), Stage 3 (Action Agents), and Stage 4 (Orchestration).</p>
 
-</body>
-</html>
+
