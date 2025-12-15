@@ -1,6 +1,6 @@
 <h1>Foundation Agent (Stage 0)</h1>
 
-    <p>A minimal LLM-powered chatbot using Groq’s ChatCompletions API and Streamlit.
+<p>A minimal LLM-powered chatbot using Groq’s ChatCompletions API and Streamlit.
     This agent is intentionally simple: no memory, no grounding, no frameworks.
     It demonstrates how a raw LLM behaves before adding enterprise capabilities in later stages.</p>
 
