@@ -61,6 +61,7 @@ def main():
     # Groq does not remember anything between requests.
     # This Python list is the only place where earlier
     # questions and earlier Groq responses are kept.
+    #
     # Check whether this app has already created a place to store messages.
     # "messages" is just a name we chose for that stored value.
     # st.session_state is where Streamlit keeps values while the page is open.
@@ -73,9 +74,6 @@ def main():
     #
     # This is important because we do NOT want to erase
     # earlier questions and earlier Groq responses every time the app runs.
-    if "messages" not in st.session_state:
-    st.session_state.messages = []
-
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
@@ -131,7 +129,6 @@ def main():
             # 6. Python waits until Groq responds.
             #
             # 7. Python stores Groq’s response in the variable named `completion`.
-            #
             completion = client.chat.completions.create(
                 model=model,
                 messages=[
